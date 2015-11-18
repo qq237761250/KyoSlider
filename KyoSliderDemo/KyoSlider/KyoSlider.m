@@ -37,9 +37,11 @@
     return self;
 }
 
-//- (void)dealloc {
-//    [self removeObserveAllProperty];    //移除监听所有属性变化
-//}
+- (void)dealloc {
+    if ([UIApplication sharedApplication].delegate) {
+        [self removeObserveAllProperty];    //移除监听所有属性变化
+    }
+}
 
 - (void)drawRect:(CGRect)rect {
     //圆角
@@ -105,7 +107,9 @@
 #pragma mark - Methods
 
 - (void)setupDefault {
-    [self observeAllProperty];  //监听所有属性变化
+    if ([UIApplication sharedApplication].delegate) {
+        [self observeAllProperty];  //监听所有属性变化
+    }
 }
 
 //获取所有属性
