@@ -15,7 +15,7 @@
 		313F57C91BB53779007D24F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313F57C71BB53779007D24F3 /* LaunchScreen.storyboard */; };
 		313F57D41BB53779007D24F3 /* KyoSliderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F57D31BB53779007D24F3 /* KyoSliderDemoTests.m */; };
 		313F57DF1BB53779007D24F3 /* KyoSliderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F57DE1BB53779007D24F3 /* KyoSliderDemoUITests.m */; };
-		313F57EF1BB537B5007D24F3 /* KyoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F57EE1BB537B5007D24F3 /* KyoSlider.m */; settings = {ASSET_TAGS = (); }; };
+		313F57EF1BB537B5007D24F3 /* KyoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F57EE1BB537B5007D24F3 /* KyoSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -428,7 +428,7 @@
 				INFOPLIST_FILE = KyoSliderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,7 +440,7 @@
 				INFOPLIST_FILE = KyoSliderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -451,7 +451,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KyoSliderDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyoSliderDemo.app/KyoSliderDemo";
 			};
@@ -463,7 +463,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KyoSliderDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyoSliderDemo.app/KyoSliderDemo";
 			};
@@ -474,7 +474,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = KyoSliderDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = KyoSliderDemo;
 				USES_XCTRUNNER = YES;
@@ -486,7 +486,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = KyoSliderDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hzins.KyoSliderDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyo.KyoSliderDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = KyoSliderDemo;
 				USES_XCTRUNNER = YES;
